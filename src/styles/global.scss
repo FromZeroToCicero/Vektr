@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+$primaryColor: #0b0c10;
+$mainWhite: #fff;
+$linkHover: #c5c6c7;
+$secondaryBlue: #45a29e;
+$lightText: #66fcf1;
+$lightMainText: #f7f8fa;
+$darkMainText: #1c2237;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  color: $primaryColor;
+  background: $mainWhite;
+  line-height: 1.4;
+  font-size: 1rem;
+}

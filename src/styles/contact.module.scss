@@ -1,0 +1,97 @@
+.contact {
+  color: $mainWhite;
+  padding: 80px 0px 210px 0px;
+  background: $primaryColor;
+
+  @media screen and (max-width: 1001px) {
+    padding-bottom: 0px;
+  }
+}
+
+.contact-container {
+  z-index: 1;
+  width: 100%;
+  max-width: 1450px;
+  margin: 0 auto;
+  padding: 0px 50px;
+
+  @media screen and (max-width: 991px) {
+    padding: 0px 30px;
+  }
+}
+
+.contact-title {
+  text-align: center;
+  font-size: 48px;
+  color: $mainWhite;
+  margin-bottom: 64px;
+
+  @media screen and (max-width: 480px) {
+    font-size: 2rem;
+  }
+}
+
+.contact-row {
+  display: flex;
+  margin: 0px -15px -15px -15px;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: "row";
+}
+
+.contact-column {
+  margin-bottom: 15px;
+  padding: 0px 15px;
+  flex: 1;
+  max-width: 50%;
+  flex-basis: 50%;
+
+  @media screen and (max-width: 768px) {
+    max-width: 100%;
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.contact-text-container {
+  max-width: 540px;
+  padding: 0px 0px 60px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media screen and (max-width: 768px) {
+    padding-top: 20px;
+    padding-bottom: 65px;
+  }
+}
+
+.contact-text {
+  max-width: 440px;
+  margin-bottom: 35px;
+  font-size: 18px;
+  line-height: 24px;
+  color: $lightMainText;
+  display: flex;
+  align-items: center;
+}
+
+.contact-info {
+  margin-left: 5px;
+}
+
+.contact-image-container {
+  max-width: 555px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contact-image {
+  padding-right: 0px;
+  border: 0px;
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+  max-height: 500px;
+}

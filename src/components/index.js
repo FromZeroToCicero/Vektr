@@ -1,0 +1,15 @@
+export { default as SEO } from "./SEO";
+export { default as Layout } from "./Layout";
+export { default as Logo } from "./Logo";
+export { default as Info } from "./Info";
+export { default as About } from "./About";
+export { default as Services } from "./Services";
+export { default as ServiceCard } from "./ServiceCard";
+export { default as Contact } from "./Contact";
+export { default as Navbar } from "./Navbar";
+export { default as NavbarLink } from "./NavbarLink";
+export { default as Footer } from "./Footer";
+export { default as FooterLinks } from "./FooterLinks";
+export { default as FooterLinksWrapper } from "./FooterLinksWrapper";
+export { default as WebsiteRights } from "./WebsiteRights";
+export { default as SocialIcons } from "./SocialIcons";

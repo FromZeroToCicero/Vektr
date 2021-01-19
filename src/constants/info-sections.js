@@ -1,0 +1,38 @@
+export default [
+  {
+    lightMode: false,
+    imgLeftSide: false,
+    topLine: "A real pleasure to drive",
+    headline: "Kick it into the next gear with Vektr",
+    description: "We offer extended car sharing possibilities for our clients, a large number of maintained & modern cars to choose from, that would make your driving experience as pleasurable as ever.",
+    image: require(`../images/city_driver.svg`),
+    imageAlt: "Vektr - The new car sharing experience!",
+  },
+  {
+    lightMode: true,
+    imgLeftSide: true,
+    topLine: "Eco friendly",
+    headline: "Protect nature by using electric cars",
+    description: "If staying green is one of your resolutions for this year, we offer the perfect ride for our eco-friendly customers. All available electric cars come fully charged, offering you the autonomy to reach your desired destination.",
+    image: require(`../images/electric_car.svg`),
+    imageAlt: "Vektr - The new car sharing experience!",
+  },
+  {
+    lightMode: false,
+    imgLeftSide: false,
+    topLine: "Ready to drive",
+    headline: "Car delivery to your location",
+    description: "Instead of having to walk yourself to a car rental place, we bring your car to any specified location, ready to take you wherever you need.",
+    image: require(`../images/order_car.svg`),
+    imageAlt: "Vektr - The new car sharing experience!",
+  },
+  {
+    lightMode: true,
+    imgLeftSide: true,
+    topLine: "Worldwide service",
+    headline: "Destinations over the horizon",
+    description: "Drive safely internationally with Vektr. Our services extend to 39 european countries, with plans to tackle the American and Asian continents by the end of 2025.",
+    image: require(`../images/navigator.svg`),
+    imageAlt: "Vektr - The new car sharing experience!",
+  },
+];
